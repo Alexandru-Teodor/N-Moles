@@ -1,0 +1,90 @@
+*, *::before, *::after {
+    font-family:"Courier New", fantasy, serif;
+    font-size:xx-large;
+}
+p {
+    color:white;
+    text-align: center;
+    margin-top: 10%;
+}
+#input-btn {
+    border-radius: 5px;
+}
+#input-btn:hover {
+    transition: 0.7s;
+    background-color: #009940;
+    color: white;
+    cursor:pointer;
+}
+#initial-msg {
+    border-radius: 5px;
+}
+#guess-msg {
+    position:relative;
+    margin-top:17%;
+}
+#not-yet-guessed {
+    margin-top: -15%;
+    color:darkorange;
+}
+::placeholder {
+    font-size: x-large;
+  }
+.msg-box {
+    position: absolute;
+    display:inline;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, 0%);
+    
+}
+.hide {
+    display: none;
+}
+
+body {
+    background-color: hsl(200, 100%, 20%);
+}
+.container {
+    position: absolute;
+    display:inline-block;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 0%);
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+#box {
+    padding:0.5rem;
+}
+.buttons {
+    margin:1.5%;
+    margin-right: 0%;
+    margin-left: 0%;
+    transition: 0.4s;
+    transition: transform 300ms;
+    border-radius: 5px;
+}
+#info {
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    margin:2rem;
+    color: white;
+}
+#total-score{
+    margin:2rem;
+    color: white;
+}
+.appears {
+    transform: translate(-10%, -10%);
+    background-color:lightgreen;
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10%;
+}
+.visible {
+    visibility: hidden;
+}

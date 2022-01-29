@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+ 
+<head>
+    <title>Whac-N-Moles</title>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+ 
+<body>
+    <div class = "msg-box" id = "initial">
+        <p id = "initial-msg">Please enter an integer number that is higher than 2: </p>
+        <input type = "text" id = "input-id" placeholder="Integer > 2" size = "12%">
+        <button id = "input-btn" onclick="getUserInput()">Play</button>
+    </div>
+
+    <div id = "total-score" class = "visible">Total score = </div>
+    <div id = "info">
+        <div id = "score">0</div>
+        <div id = timer>20</div>
+    </div>
+
+    <div class = "hide" id = "box">
+        <!--the div with the buttons-->
+    </div>
+    <script src = "script.js"> </script>
+</body>
+ 
+</html>
